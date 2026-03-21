@@ -63,23 +63,17 @@ ul li{
     position: relative;
 }
 ul li::before{
-   content: '';
-    position: absolute;
-    height: 28px;
-    width: 28px;
-    background-image: url(To-Do-Img/images/unchecked.png);
-    background-size: cover;
-    background-position: center;
-    top: 12px;
-    left: 8px;
+    background-image: url(unchecked.png);
+}
 
 }
 ul li.checked{
     color: #555;
     text-decoration: line-through;
 }
+
 ul li.checked::before{
-    background-image: url(To-Do-Img/images/checked.png);
+    background-image: url(checked.png);
 }
 ul li span{
     position: absolute;
