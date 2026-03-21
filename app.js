@@ -43,3 +43,15 @@ inputBox.addEventListener("keypress", function(e){
         addTask();
     }
 });
+
+function darkMode(){
+    document.querySelector('.container').style.background = "#222222";
+    document.querySelector('.todo-app').style.background = "#333333";
+    document.querySelector('.todo-app h2').style.color = "#ffffff";
+}
+
+function lightMode(){
+    document.querySelector('.container').style.background = "linear-gradient(135deg, #153677, #4e085f)";
+    document.querySelector('.todo-app').style.background = "#ffffff";
+    document.querySelector('.todo-app h2').style.color = "#002765";
+}

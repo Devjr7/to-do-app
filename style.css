@@ -96,3 +96,13 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+
+.mode-btn {
+    padding: 8px 16px;
+    background: #333;
+    color: #fff;
+    border-radius: 8px;
+    margin: 5px;
+    font-size: 14px;
+}
