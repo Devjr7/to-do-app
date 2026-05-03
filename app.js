@@ -46,8 +46,9 @@ inputBox.addEventListener("keypress", function(e){
 
 
 
-function lightMode(){
-    document.querySelector('.container').style.background = "linear-gradient(135deg, #153677, #4e085f)";
-    document.querySelector('.todo-app').style.background = "#ffffff";
-    document.querySelector('.todo-app h2').style.color = "#002765";
-}
+
+
+
+
+
+
